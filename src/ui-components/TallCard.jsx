@@ -78,7 +78,7 @@ export default function TallCard(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={`${"Price: $"}${home?.price}${"/night"}`}
+          children={home?.price}
           {...getOverrideProps(overrides, "Price")}
         ></Text>
       </Flex>

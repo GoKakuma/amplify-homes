@@ -9,6 +9,7 @@ import React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Divider, Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
+import MyIconchatbubbleoutline from "./MyIconchatbubbleoutline";
 export default function Ampligram(props) {
   const { overrides, ...rest } = props;
   return (
@@ -158,16 +159,15 @@ export default function Ampligram(props) {
             type="favorite_border"
             {...getOverrideProps(overrides, "MyIcon29766772")}
           ></MyIcon>
-          <MyIcon
+          <MyIconchatbubbleoutline
             width="24px"
             height="24px"
             shrink="0"
             overflow="hidden"
             position="relative"
             padding="0px 0px 0px 0px"
-            type="chat-bubble-outline"
-            {...getOverrideProps(overrides, "MyIcon29766773")}
-          ></MyIcon>
+            {...getOverrideProps(overrides, "MyIcon/chat-bubble-outline")}
+          ></MyIconchatbubbleoutline>
           <MyIcon
             width="24px"
             height="24px"
